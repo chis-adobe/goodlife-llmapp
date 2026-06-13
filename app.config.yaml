@@ -25,6 +25,8 @@ application:
             inputs:
               # Set log level (debug, info, warn, error)
               LOG_LEVEL: debug
+              SUPABASE_URL: https://frxmpbzzllwvrsalufat.supabase.co
+              SUPABASE_ANON_KEY: sb_publishable_9O28CaiVXWuD26zL5w2s5A_I6Q_iu4g
             annotations:
               # No Adobe authentication required for MCP servers
               require-adobe-auth: false
